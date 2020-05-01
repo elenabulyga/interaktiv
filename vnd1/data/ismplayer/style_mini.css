@@ -1,0 +1,170 @@
+html, body {
+    height: 100%;
+}
+
+body {
+	background: #EFEFEF;
+	box-sizing: border-box;
+	font-family: Arial;
+	width: 100%;
+	margin: 0px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.buttons {
+	display: none !important;
+}
+
+.mobileLauncher {
+	position: relative;
+	display: inline-block;
+    padding: 0px;
+	font-size: 0px;
+	border: 1px solid;
+	border-radius: 2px;
+	border-color: #DCDBDC;
+}
+
+.preview {
+	width: 100%;
+	height: auto;
+}
+
+.btnPlay  {
+	background: url("play.svg") no-repeat center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.info {
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.info h1 {
+    font-size: 28px;
+	font-weight: normal;
+    color: #323232;
+
+    line-height: 30px;
+    margin: 0px;
+
+    word-wrap: break-word;
+}
+
+.info p {
+    font-size: 20px;
+	font-weight: normal;
+    color: #6D6E70;
+
+    line-height: 22px;
+	margin-top: 25px;
+    margin-bottom: 0px;
+
+    word-wrap: break-word;
+}
+
+.bottom_area {
+	display: inline-block;
+	width:100%;
+	box-sizing: border-box;
+}
+
+.bottom_area a {
+    color: #0099CC;
+    font-size: 21px;
+	float: right;
+	margin: 0px;
+}
+
+@media (orientation:portrait) {
+
+body {
+	padding: 28px 16px;
+}
+
+.mobileLauncher {
+	width: 100%;
+}
+
+.btnPlay  {
+	background-size: 142px 142px;
+}
+
+.info {
+	margin-top: 18px;
+	padding: 25px 22px;
+	
+	background: #FFFFFF;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #DCDBDC;
+	box-shadow: 0px 0px 3px #DCDBDC;
+}
+
+.bottom_area {
+	position: relative;
+	margin-top: 25px;
+}
+
+}
+
+@media (orientation:landscape) {
+
+body {
+	padding: 16px 14px 76px 14px;
+}
+
+.mainLayer {
+	height: 100%;
+}
+
+.mobileLauncher {
+	position:relative;
+	display: block;
+	width: 25%;
+	float: left;
+}
+
+.btnPlay  {
+	background-size: 71px 71px;
+}
+
+.info {
+	margin-left: 25%;
+	padding-left: 30px;
+	width: 75%;
+}
+
+.mobileInfoLandscape {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	
+	padding: 16px;
+	
+	background: #FFFFFF;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #DCDBDC;
+	box-shadow: 0px 0px 3px #DCDBDC;
+}
+
+.bottom_area {
+	position: absolute;
+	height: 24px;
+	bottom: 28px;
+	right: 0px;
+	
+	padding-left: 14px;
+	padding-right: 14px;
+}
+	
+}

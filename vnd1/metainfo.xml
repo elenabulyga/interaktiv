@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<presentation guid="28FE794B-09B3-48F3-B879-C12553FC5F0C" version="0" availableOffline="1">
+	<info>
+		<title>vnd1</title>
+		<description/>
+	</info>
+	<files index="id8" thumbnail="id22" totalSize="2126592">
+		<file id="id0">data/slide1.js</file>
+		<file id="id1">data/slide1.css</file>
+		<file id="id2">data/slide2.js</file>
+		<file id="id3">data/slide2.css</file>
+		<file id="id4">data/slide3.js</file>
+		<file id="id5">data/slide3.css</file>
+		<file id="id6">data/slide4.js</file>
+		<file id="id7">data/slide4.css</file>
+		<file id="id8">index.html</file>
+		<file id="id9">data/player.js</file>
+		<file id="id10">data/apple-touch-icon.png</file>
+		<file id="id11">data/favicon.ico</file>
+		<file id="id12">data/html5-unsupported.html</file>
+		<file id="id13">data/html5.png</file>
+		<file id="id14">data/img0.png</file>
+		<file id="id15">data/img1.png</file>
+		<file id="id16">data/img2.png</file>
+		<file id="id17">data/img3.png</file>
+		<file id="id18">data/img4.png</file>
+		<file id="id19">data/img5.png</file>
+		<file id="id20">data/img6.png</file>
+		<file id="id21">data/img7.png</file>
+		<file id="id22">data/ismplayer/preview.png</file>
+		<file id="id23">data/ismplayer/thumb.png</file>
+		<file id="id24">data/ismplayer/android.png</file>
+		<file id="id25">data/ismplayer/android2x.png</file>
+		<file id="id26">data/ismplayer/btn_sprites.png</file>
+		<file id="id27">data/ismplayer/btn_sprites2x.png</file>
+		<file id="id28">data/ismplayer/ipad.png</file>
+		<file id="id29">data/ismplayer/ipad2x.png</file>
+		<file id="id30">data/ismplayer/play.svg</file>
+		<file id="id31">data/ismplayer/style.css</file>
+		<file id="id32">data/ismplayer/style_mini.css</file>
+		<file id="id33">ismplayer.html</file>
+		<file id="id34">data/ismplayer/app_store.png</file>
+		<file id="id35">data/ismplayer/app_store2x.png</file>
+		<file id="id36">metainfo.xml</file>
+	</files>
+</presentation>
