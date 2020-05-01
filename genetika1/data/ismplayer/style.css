@@ -1,0 +1,194 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: #7F7F7F;
+
+    box-sizing: border-box;
+    padding: 30px;
+
+    font-family: Helvetica;
+}
+
+.mobileLauncher {
+	display: none !important;
+}
+
+.mainLayer {
+    background: #fff;
+    height: 100%;
+    position: relative;
+
+    min-width: 700px;
+    min-height: 300px;
+}
+
+.device {
+    position: absolute;
+    top: 33px;
+    left: 33px;
+}
+
+.thumb {
+    position: absolute;
+    background: url("thumb.png") no-repeat center;
+    background-size: contain;
+}
+
+.ipad .device {
+    width: 301px;
+    height: 212px;
+
+    background: url("ipad.png") no-repeat;
+    background-size: cover;
+}
+
+.ipad .thumb {
+    top: 30px;
+    bottom: 14px;
+    left: 29px;
+    right: 29px;
+}
+
+.android .device {
+    width: 312px;
+    height: 213px;
+
+    background: url("android.png") no-repeat;
+    background-size: cover;
+}
+
+.android .thumb {
+    top: 43px;
+    bottom: 36px;
+    left: 29px;
+    right: 29px;
+}
+
+.info {
+    position: absolute;
+    left: 373px;
+    right: 20px;
+    top: 57px;
+}
+
+.info h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #262c3a;
+
+    line-height: 33px;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    word-wrap: break-word;
+}
+
+.info p {
+    font-size: 16px;
+    color: #4c566c;
+
+    line-height: 21px;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    word-wrap: break-word;
+}
+
+.buttons a {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin-right: 12px;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.buttons a:last-child {
+    margin-right: 0;
+}
+
+.text_button {
+    font-size: 22px;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.text_button div {
+    display: inline-block;
+    height: 51px;
+
+    background: url("btn_sprites.png") no-repeat;
+}
+.text_button .center {
+    margin: 0 6px;
+    padding: 0 20px;
+    line-height: 51px;
+
+    background-repeat: repeat-x;
+    background-position: 0 -110px;
+}
+.text_button .left {
+    background-position: 0 0;
+}
+.text_button .right {
+    background-position: right -55px;
+}
+
+.text_button:active .center {
+    background-position: 0 -275px;
+}
+.text_button:active .left {
+    background-position: 0 -165px;
+}
+.text_button:active .right {
+    background-position: right -220px;
+}
+
+.app_store {
+    width: 169px;
+    height: 50px;
+
+    background: url("app_store.png") no-repeat;
+    background-size: cover;
+}
+
+.bottom_area {
+    position: absolute;
+    right: 40px;
+    bottom: 34px;
+}
+
+.bottom_area a {
+    color: #0075EB;
+    font-size: 15px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2) {
+    .ipad .device {
+        background-image: url("ipad2x.png");
+    }
+
+    .android .device {
+        background-image: url("android2x.png");
+    }
+
+    .text_button div {
+        background: url("btn_sprites2x.png") no-repeat;
+        background-size: 10px 330px;
+    }
+
+    .app_store {
+        background-image: url("app_store2x.png");
+    }
+}
